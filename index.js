@@ -17,7 +17,7 @@ const readmeContent= `
 ${licenseBadge}
 ${title}
 
-<hr>
+
 
 
 ${license}
