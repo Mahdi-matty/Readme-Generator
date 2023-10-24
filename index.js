@@ -14,7 +14,7 @@ const licenseBadge = licenseBadges[license] || '';
 
 
 const readmeContent= `
-${licenseBadge}
+![badge] ${licenseBadge}
 ${title}
 
 
