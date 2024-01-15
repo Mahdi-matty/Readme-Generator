@@ -11,6 +11,22 @@ const licenseBadges = {
     'unlicense': 'https://img.shields.io/badge/license-Unlicense-blue.svg'
 };
 const licenseBadge = licenseBadges[license] || '';
+const tableOfContents = `
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Questions](#questions)
+- [License](#license)
+`;
+
+    const licenseSection = `
+## License
+
+This project is licensed under the [${license}] - see the [LICENSE.md](LICENSE.md) file for details.
+`;
 
 
 const readmeContent= `
@@ -20,7 +36,7 @@ ${title}
 
 
 
-${license}
+${licenseSection}
 
 # description
 ${description}
@@ -38,10 +54,13 @@ ${contribution}
 ${test}
 
 ###### questions
- ${email}
- ${github}`;
- return readmeContent;
+- Email: ${email}
+- GitHub: [${github}](https://github.com/${github})
+`;
+
+    return tableOfContents + readmeContent;
 }
+
 
  inquirer
  .prompt([
@@ -94,7 +113,7 @@ ${test}
  ]).then((answers)=>{
     const readmeGenerate = generateReadMe(answers);
 
-    fs.writeFile('readme.md', readmeGenerate, (err) =>
+    fs.writeFile('redme.md', readmeGenerate, (err) =>
       err ? console.log(err) : console.log('Successfully created readme.md!')
     );
  })
