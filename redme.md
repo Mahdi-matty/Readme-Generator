@@ -8,7 +8,7 @@
 - [Questions](#questions)
 - [License](#license)
 
-![badge] 
+![badge] ()
 salut
 
 
@@ -17,24 +17,24 @@ salut
 
 ## License
 
-This project is licensed under the [] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [](undefined) license - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 # description
-a modern social media app that can link user and posts 
+social media app
 
 ## instalation 
-nodejs, express, sequlize, mysql2, handlebars
+node express
 
 ### usage
 online
 
 #### contribution 
-by vivisting github page
+visiting the project website
 
 ##### test
-visit the link
+visiting the deploy website
 
 ###### questions
 - Email: mmiq69@gmail.com
-- GitHub: [github.com/Mahdi-matty](https://github.com/github.com/Mahdi-matty)
+- GitHub: [Mahdi-matty](https://github.com/Mahdi-matty)
