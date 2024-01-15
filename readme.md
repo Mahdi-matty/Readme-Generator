@@ -1,25 +1,23 @@
 
-![badge] 
-Salut
-
-
+# title
+this file will generate a readme file 
 
 
 
 
 # description
-a modern social media app
+by prompting user question and answering them it automatically fill and write a readme for the application
 
 ## instalation 
-node express sequlize and handlebars
+it is fully based on back end using node.js
 
 ### usage
-Online using node and express
+by typing the command node.js/index.js on command line 
 
 #### contribution 
 they can go to my github page
 
-##### test
+##### display
 visit the link
 
 ###### questions

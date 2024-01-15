@@ -8,31 +8,31 @@
 - [Questions](#questions)
 - [License](#license)
 
-![badge] (https://opensource.org/licenses/MIT)
-kk
+![badge] (https://img.shields.io/badge/License-MIT-yellow.svg)
+salut
 
 
 
 
 
 # description
-momani
+it's a modern day social netwoork
 
 ## instalation 
-licence
+if you wanna use it locally you need to install node, express, sequilize, handlbars
 
 ### usage
-omar
+it is entirely online
 
 #### contribution 
-the omar
+visit my github page
 
 ##### test
-momani
+visit the deploy app
 
 ###### questions
-- Email: mmi@gmail.com
-- GitHub: [gatuzo](https://github.com/gatuzo)
+- Email: mmiq69@gmail.com
+- GitHub: [Mahdi-matty](https://github.com/Mahdi-matty)
 
 
 ## License

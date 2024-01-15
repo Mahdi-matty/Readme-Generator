@@ -5,7 +5,7 @@ const { emit } = require("process");
 const generateReadMe = ({title, description, instalation, github, email, license, usage, contribution, test}) =>{ 
 
 const licenseBadges = {
-    'MIT license': 'https://opensource.org/licenses/MIT',
+    'MIT license': 'https://img.shields.io/badge/License-MIT-yellow.svg',
     'Boost software license': 'https://img.shields.io/badge/License-Boost%201.0-lightblue.svg',
     'GNU': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
     'unlicense': 'https://img.shields.io/badge/license-Unlicense-blue.svg'
