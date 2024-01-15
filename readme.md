@@ -1,27 +1,27 @@
 
-![badge](https://img.shields.io/badge/License-GPLv3-blue.svg)
-Here-Say
-
-<hr>
+![badge] 
+Salut
 
 
-GNU
+
+
+
 
 # description
-project is about to give access to people anywhere to google map and at the same time tranlating and using exchange rate
+a modern social media app
 
 ## instalation 
-this is web aplication so no need for installation
+node express sequlize and handlebars
 
 ### usage
-by using google map through drag icon
+Online using node and express
 
 #### contribution 
-please refere to my github account
+they can go to my github page
 
 ##### test
-visiti the website at github.io/Mahdi-matty/Here-Say
+visit the link
 
 ###### questions
  mmiq69@gmail.com
- gihub.com/Mahdi-matty
+ githb.com/Mahdi-matty
