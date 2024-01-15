@@ -8,33 +8,34 @@
 - [Questions](#questions)
 - [License](#license)
 
-![badge] ()
-salut
+![badge] (https://opensource.org/licenses/MIT)
+kk
 
 
 
+
+
+# description
+momani
+
+## instalation 
+licence
+
+### usage
+omar
+
+#### contribution 
+the omar
+
+##### test
+momani
+
+###### questions
+- Email: mmi@gmail.com
+- GitHub: [gatuzo](https://github.com/gatuzo)
 
 
 ## License
 
-This project is licensed under the [](undefined) license - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT license] license.
 
-
-# description
-social media app
-
-## instalation 
-node express
-
-### usage
-online
-
-#### contribution 
-visiting the project website
-
-##### test
-visiting the deploy website
-
-###### questions
-- Email: mmiq69@gmail.com
-- GitHub: [Mahdi-matty](https://github.com/Mahdi-matty)

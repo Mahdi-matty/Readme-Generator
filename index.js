@@ -5,7 +5,7 @@ const { emit } = require("process");
 const generateReadMe = ({title, description, instalation, github, email, license, usage, contribution, test}) =>{ 
 
 const licenseBadges = {
-    'MIT license': 'https://img.shields.io/badge/License-MIT-yellow.svg',
+    'MIT license': 'https://opensource.org/licenses/MIT',
     'Boost software license': 'https://img.shields.io/badge/License-Boost%201.0-lightblue.svg',
     'GNU': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
     'unlicense': 'https://img.shields.io/badge/license-Unlicense-blue.svg'
@@ -25,7 +25,7 @@ const tableOfContents = `
     const licenseSection = `
 ## License
 
-This project is licensed under the [${license}](${licenseBadges[license]}) license - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [${license}] license.
 `;
 
 
@@ -36,7 +36,6 @@ ${title}
 
 
 
-${licenseSection}
 
 # description
 ${description}
@@ -56,6 +55,8 @@ ${test}
 ###### questions
 - Email: ${email}
 - GitHub: [${github}](https://github.com/${github})
+
+${licenseSection}
 `;
 
     return tableOfContents + readmeContent;
@@ -105,7 +106,7 @@ ${test}
         message: 'enter your github address?',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What license you are using??',
         choices: ['MIT license', 'Boost software license', 'GNU', 'unlicense']
